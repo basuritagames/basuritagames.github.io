@@ -1,150 +1,622 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Basurita Games</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="/logo.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/logo.png" />
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/logo.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basurita Games | Indie Game Studio</title>
+
+    <meta name="description" content="Basurita Games is an indie game development studio creating fun, polished and memorable games for millions of players.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/logo.png">
 </head>
+
 <body>
-  <div class="container">
-    <header class="header">
-      <img src="logo_big.png" alt="Basurita Games Logo" class="logo">
-      <div class="divider"></div>
-      <p class="about-text">
-        We are <strong>Gonzalo Orellana</strong> and <strong>Martín Prenassi</strong> from La Plata, Argentina 🇦🇷. 
-        We're passionate indie game developers creating fun and engaging experiences. 
-        Join us on our journey as we bring creative games to life!
-      </p>
-      <a href="mailto:basuritagames@gmail.com" class="contact-button" aria-label="Email">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-          <path d="M3 6.75A2.75 2.75 0 0 1 5.75 4h12.5A2.75 2.75 0 0 1 21 6.75v10.5A2.75 2.75 0 0 1 18.25 20h-12.5A2.75 2.75 0 0 1 3 17.25V6.75Zm2.75-1.25c-.62 0-1.18.29-1.55.75l7.31 5.21c.29.21.69.21.98 0l7.31-5.21a1.75 1.75 0 0 0-1.55-.75H5.75Zm13.75 2.18-6.24 4.45a2.35 2.35 0 0 1-2.72 0L4.5 7.68v9.57c0 .69.56 1.25 1.25 1.25h12.5c.69 0 1.25-.56 1.25-1.25V7.68Z" />
-        </svg>
-      </a>
-      <a href="https://www.instagram.com/basuritagames" class="contact-button" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-          <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5a4.25 4.25 0 0 0 4.25 4.25h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5a4.25 4.25 0 0 0-4.25-4.25h-8.5Zm9.5 2.25a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z" />
-        </svg>
-      </a>
-      <div class="divider"></div>
-    </header>
-    
-    <main class="content">
-      <h2 class="section-title">Our games</h2>
-      
-      <div class="games-grid">
-        <a href="https://poki.com/en/g/find-it" class="game-card" target="_blank" rel="noopener noreferrer">
-          <div class="game-logo-container">
-            <img src="find_it.jpg" alt="Find It!" class="game-logo">
-            <div class="game-overlay">
-              <h3 class="card-title">Find It!</h3>
-            </div>
-          </div>
-        </a>
-        
-        <a href="https://poki.com/en/g/crazy-merge" class="game-card" target="_blank" rel="noopener noreferrer">
-          <div class="game-logo-container">
-            <img src="crazy_merge.png" alt="Crazy Merge" class="game-logo">
-            <div class="game-overlay">
-              <h3 class="card-title">Crazy Merge</h3>
-            </div>
-          </div>
-        </a>
 
-        <a href="https://poki.com/en/g/moley-miner" class="game-card" target="_blank" rel="noopener noreferrer">
-          <div class="game-logo-container">
-            <img src="moley_miner.jpg" alt="Moley Miner" class="game-logo">
-            <div class="game-overlay">
-              <h3 class="card-title">Moley Miner</h3>
-            </div>
-          </div>
-        </a>
-      </div>
+<header>
 
-      <section class="dev-section">
-        <h2 class="section-title">Other games</h2>
-        
-        <div class="games-grid">
-          <a href="https://gauchitogilgames.itch.io/osvaldo" class="game-card" target="_blank" rel="noopener noreferrer">
-            <div class="game-logo-container">
-              <img src="osvaldo.png" alt="Osvaldo vs The UFO madness" class="game-logo">
-              <div class="game-overlay">
-                <h3 class="card-title">Osvaldo vs The UFO madness</h3>
-              </div>
-            </div>
-          </a>
+<nav class="navbar">
 
-          <a href="https://basuritagames.itch.io/rageagainstthesapiens" class="game-card" target="_blank" rel="noopener noreferrer">
-            <div class="game-logo-container">
-              <img src="rage_against_the_sapiens.png" alt="Rage Against The Sapiens" class="game-logo">
-              <div class="game-overlay">
-                <h3 class="card-title">Rage Against The Sapiens</h3>
-              </div>
-            </div>
-          </a>
-        </div>
-      </section>
+<div class="nav-container">
 
-      <section class="dev-section">
-        <h2 class="section-title">Work in progress</h2>
-        
-        <div class="games-grid">
-          <a href="https://poki.com/en/g/booo-buster-bill" class="game-card" target="_blank" rel="noopener noreferrer">
-            <div class="game-logo-container">
-              <img src="booo_buster_bill.png" alt="Booo Buster Bill" class="game-logo">
-              <div class="game-overlay">
-                <h3 class="card-title">Booo Buster Bill</h3>
-              </div>
-            </div>
-          </a>
+<a href="#" class="logo-link">
 
-          <a href="https://poki.com/en/preview/52ba8818-546e-498d-a858-1a04f17df447/b3d82d3e-b94b-498e-89c1-ce8e84a2ba46" class="game-card" target="_blank" rel="noopener noreferrer">
-            <div class="game-logo-container">
-              <img src="red_hunter.jpg" alt="Red Hunter" class="game-logo">
-              <div class="game-overlay">
-                <h3 class="card-title">Red Hunter</h3>
-              </div>
-            </div>
-          </a>
-          
-          <a href="https://poki.com/en/preview/f53c7dfc-df65-4bba-beeb-4bf89d5bf3cc/d0783937-8d47-4f04-a51d-6ac6f797376f" class="game-card" target="_blank" rel="noopener noreferrer">
-            <div class="game-logo-container">
-              <img src="chop_orc.jpg" alt="Chop Orc" class="game-logo">
-              <div class="game-overlay">
-                <h3 class="card-title">Chop Orc</h3>
-              </div>
-            </div>
-          </a>
-          
-          <!-- <a href="https://poki.com/en/preview/a6ae45ea-3b25-417c-a7fc-373a75a2617f/86525657-daa6-46fe-ae7f-1819d77533c9" class="game-card" target="_blank" rel="noopener noreferrer">
-            <div class="game-logo-container">
-              <img src="wip.png" alt="Robo Restaurant" class="game-logo">
-              <div class="game-overlay">
-                <h3 class="card-title">Robo Restaurant</h3>
-              </div>
-            </div>
-          </a>
-        </div> -->
-      </section>
+<img src="images/logo.png" class="nav-logo" id="nav-logo" alt="Basurita Games">
 
-    </main>
+</a>
 
-    <footer class="footer">
-      <div class="divider"></div>
-      <img src="logo.png" alt="Basurita Games" class="footer-logo">
-      <p>
+<button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
+<span></span>
+<span></span>
+<span></span>
+</button>
+
+<ul class="nav-menu" id="nav-menu">
+
+<li><a href="#games">Games</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</div>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<img src="images/logo_big.png"
+class="hero-logo"
+alt="Basurita Games">
+
+<h1>
+Indie game studio
+</h1>
+
+<p>
+
+Basurita Games designs and builds original games mainly for web 
+platforms, combining thoughtful game design with distinctive art
+direction. Our titles have reached millions of players worldwide through
+platforms such as Poki and itch.io.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#games" class="button button-primary">
+Our Games
+</a>
+
+<a href="#about" class="button button-secondary">
+Meet Us
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+</header>
+
+<main>
+
+<section id="games" class="section">
+
+<div class="section-header">
+
+<h2>Published Games</h2>
+
+<p>
+A selection of the games we have designed, developed and released across multiple platforms.
+</p>
+
+</div>
+
+<div class="games-grid">
+
+<!-- ================================================= -->
+
+<article class="game-card">
+
+<a href="https://poki.com/en/g/crazy-merge" target="_blank" class="game-image-link">
+<img
+src="images/crazy_merge.png"
+alt="Crazy Merge"
+class="game-image">
+</a>
+
+<div class="game-content">
+
+<h3>Crazy Merge</h3>
+
+<p class="desc-badge">
+Cook for a kitchen full of hungry monsters by merging hilarious ingredients into stranger and stranger recipes. Oddly relaxing, oddly addictive.
+</p>
+
+<span class="jam-badge">🎮 +3M gameplays on Poki!</span>
+
+<div class="game-footer">
+
+<a
+href="https://poki.com/en/g/crazy-merge"
+target="_blank"
+class="badge-link">
+<img src="images/poki_badge.png" alt="Play on Poki" class="badge-img">
+</a>
+
+</div>
+
+</div>
+
+</article>
+
+<!-- ================================================= -->
+
+<article class="game-card">
+
+<a href="https://poki.com/en/g/find-it" target="_blank" class="game-image-link">
+<img
+src="images/find_it.jpg"
+alt="Find It!"
+class="game-image">
+</a>
+
+<div class="game-content">
+
+<h3>Find It!</h3>
+
+<p class="desc-badge">
+Every scene is packed with tiny, funny details hiding in plain sight. Look closer, spot them all, and prove your eyes are better than your friends'.
+</p>
+
+<span class="jam-badge">🎮 +500k gameplays on Poki!</span>
+
+<div class="game-footer">
+
+<a
+href="https://poki.com/en/g/find-it"
+target="_blank"
+class="badge-link">
+<img src="images/poki_badge.png" alt="Play on Poki" class="badge-img">
+</a>
+
+</div>
+
+</div>
+
+</article>
+
+<!-- ================================================= -->
+
+<article class="game-card">
+
+<a href="https://poki.com/en/g/moley-miner" target="_blank" class="game-image-link">
+<img
+src="images/moley_miner.jpg"
+alt="Moley Miner"
+class="game-image">
+</a>
+
+<div class="game-content">
+
+<h3>Moley Miner</h3>
+
+<p class="desc-badge">
+Dig deep as the charming little Moley, fill your backpack with rare loot, and keep an eye on your battery unless you enjoy the taste of dirt in the dark.
+</p>
+
+<span class="jam-badge">🎮 +500k gameplays on Poki!</span>
+
+<div class="game-footer">
+
+<a
+href="https://poki.com/en/g/moley-miner"
+target="_blank"
+class="badge-link">
+<img src="images/poki_badge.png" alt="Play on Poki" class="badge-img">
+</a>
+
+</div>
+
+</div>
+
+</article>
+
+<!-- ================================================= -->
+
+<article class="game-card">
+
+<a href="https://basuritagames.itch.io/osvaldo" target="_blank" class="game-image-link">
+<img
+src="images/osvaldo.png"
+alt="Osvaldo vs The UFO Madness"
+class="game-image">
+</a>
+
+<div class="game-content">
+
+<h3>Osvaldo vs The UFO Madness</h3>
+
+<p class="desc-badge">
+Help Osvaldo survive a bizarre alien invasion in the Argentinian Hills of Córdoba. Packed with action and absurd humor!
+</p>
+
+<span class="jam-badge">🎮 Our first game ever. Coming to Steam soon!</span>
+
+<div class="game-footer">
+
+<a
+href="https://basuritagames.itch.io/osvaldo"
+target="_blank"
+class="badge-link">
+<img src="images/itch_io_badge.png" alt="Available on itch.io" class="badge-img">
+</a>
+
+</div>
+
+</div>
+
+</article>
+
+<!-- ================================================= -->
+
+<article class="game-card">
+
+<a href="https://basuritagames.itch.io/rageagainstthesapiens" target="_blank" class="game-image-link">
+<img
+src="images/rage_against_the_sapiens.png"
+alt="Rage Against The Sapiens"
+class="game-image">
+</a>
+
+<div class="game-content">
+
+<h3>Rage Against The Sapiens</h3>
+
+<p class="desc-badge">
+Your friendly roomba gets an update... and becomes a killer. Humanity had it coming.
+</p>
+
+<span class="jam-badge">🏆 Gamedev.js 2026 — Theme: Machines — 1st place on Theme</span>
+
+<div class="game-footer">
+
+<a
+href="https://basuritagames.itch.io/rageagainstthesapiens"
+target="_blank"
+class="badge-link">
+<img src="images/itch_io_badge.png" alt="Available on itch.io" class="badge-img">
+</a>
+
+</div>
+
+</div>
+
+</article>
+
+<!-- ================================================= -->
+ 
+<article class="game-card">
+
+<a href="https://basuritagames.itch.io/final-countdown" target="_blank" class="game-image-link">
+<img
+src="images/final_countdown.png"
+alt="Final Countdown"
+class="game-image">
+</a>
+
+<div class="game-content">
+
+<h3>Final Countdown</h3>
+
+<p class="desc-badge">Help our absolute unit of a friend escape his captors before the bunker goes boom. No pressure, you've only got until zero.
+</p>
+
+<span class="jam-badge">🎮 GMTK Jam 2026 — Theme: Countdown</span>
+
+<div class="game-footer">
+
+<a
+href="https://basuritagames.itch.io/final-countdown"
+target="_blank"
+class="badge-link">
+<img src="images/itch_io_badge.png" alt="Available on itch.io" class="badge-img">
+</a>
+
+</div>
+
+</div>
+
+</article>
+
+<!-- ================================================= -->
+
+<article class="game-card">
+
+<a href="https://poki.com/en/g/booo-buster-bill" target="_blank" class="game-image-link">
+<img
+src="images/booo_buster_bill.png"
+alt="Booo Buster Bill"
+class="game-image">
+</a>
+
+<div class="game-content">
+
+<h3>Booo Buster Bill</h3>
+
+<p class="desc-badge">
+
+Grab a flashlight and steady your nerves. Bill has to sneak past a house
+full of grinning, glowing ghosts without becoming their newest roommate.
+
+</p>
+
+<span class="jam-badge">👻 Prototype for Poki, work in progress...</span>
+
+<div class="game-footer">
+
+<a
+href="https://poki.com/en/g/booo-buster-bill"
+target="_blank"
+class="badge-link">
+<img src="images/poki_badge.png" alt="Play on Poki" class="badge-img">
+</a>
+
+</div>
+
+</div>
+
+</article>
+
+<!-- ================================================= -->
+
+<article class="game-card">
+
+<a href="https://poki.com/en/preview/52ba8818-546e-498d-a858-1a04f17df447/b3d82d3e-b94b-498e-89c1-ce8e84a2ba46" target="_blank" class="game-image-link">
+<img
+src="images/red_hunter.jpg"
+alt="Red Hunter"
+class="game-image">
+</a>
+
+<div class="game-content">
+
+<h3>Red Hunter</h3>
+
+<p class="desc-badge">
+
+A tiny red menace picks fights with monsters ten times his size.
+Punch first, ask questions never.
+
+</p>
+
+<span class="jam-badge">🥊 Prototype for Poki, work in progress...</span>
+
+<div class="game-footer">
+
+<a
+href="https://poki.com/en/preview/52ba8818-546e-498d-a858-1a04f17df447/b3d82d3e-b94b-498e-89c1-ce8e84a2ba46"
+target="_blank"
+class="badge-link">
+<img src="images/poki_badge.png" alt="Play on Poki" class="badge-img">
+</a>
+
+</div>
+
+</div>
+
+</article>
+
+<!-- ================================================= -->
+
+<article class="game-card">
+
+<a href="https://poki.com/en/preview/f53c7dfc-df65-4bba-beeb-4bf89d5bf3cc/d0783937-8d47-4f04-a51d-6ac6f797376f" target="_blank" class="game-image-link">
+<img
+src="images/chop_orc.jpg"
+alt="Chop Orc"
+class="game-image">
+</a>
+
+<div class="game-content">
+
+<h3>Chop Orc</h3>
+
+<p class="desc-badge">
+
+Chop orc, buy weapons, earn money, repeat...
+
+</p>
+
+<span class="jam-badge">🪓 Prototype for Poki, work in progress...</span>
+
+<div class="game-footer">
+
+<a
+href="https://poki.com/en/preview/f53c7dfc-df65-4bba-beeb-4bf89d5bf3cc/d0783937-8d47-4f04-a51d-6ac6f797376f"
+target="_blank"
+class="badge-link">
+<img src="images/poki_badge.png" alt="Play on Poki" class="badge-img">
+</a>
+
+</div>
+
+</div>
+
+</article>
+
+<!-- ================================================= -->
+
+</div>
+
+</section>
+
+<section id="about" class="section">
+
+<div class="section-header">
+
+<h2>About Us</h2>
+
+<p>
+
+The people, the story and the mission behind Basurita Games.
+
+</p>
+
+</div>
+
+<div class="team-grid">
+
+<div class="member-card">
+
+<img
+src="images/gonzalo.png"
+class="member-photo"
+alt="Gonzalo Orellana">
+
+<h3>
+Gonzalo Orellana
+</h3>
+
+<span class="member-role">
+Programmer 💻
+</span>
+
+<p>
+Game developer and designer, programmer, data scientist and physicist.
+</p>
+
+</div>
+
+<div class="member-card">
+
+<img
+src="images/martin.png"
+class="member-photo"
+alt="Martín Prenassi">
+
+<h3>
+Martín Prenassi
+</h3>
+
+<span class="member-role">
+Artist 🎨
+</span>
+
+<p>
+Visual developer, graphics designer, game designer.
+</p>
+
+</div>
+
+</div>
+
+<div class="about-text">
+
+<p>
+
+Basurita Games is an independent game development studio founded in La
+Plata, Argentina 🇦🇷. Since our founding, we have focused on
+designing and building original games for web and mobile platforms.
+
+Our catalog spans multiple genres, including puzzle, simulation, action
+and horror, with titles published on Poki and itch.io. Each project is guided by careful game design,
+distinctive art direction and attention to technical performance.
+
+Most of our games are built for the browser, allowing players anywhere in
+the world to access them instantly, without downloads or installation. We
+continue to develop new titles with the long-term goal of establishing
+Basurita Games as a recognized name in independent game development.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="contact" class="section">
+
+<div class="section-header">
+
+<h2>Contact</h2>
+
+<p>
+If you have any idea in mind, don't hesitate to reach out, let's build something together!
+</p>
+
+</div>
+
+<div class="contact-grid">
+
+<a
+href="mailto:basuritagames@gmail.com"
+class="contact-card">
+
+<svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<rect x="3" y="5" width="18" height="14" rx="2"></rect>
+<path d="m3 7 9 6 9-6"></path>
+</svg>
+
+<h3>Email</h3>
+
+<p>
+basuritagames@gmail.com
+</p>
+
+</a>
+
+<a
+href="https://basuritagames.itch.io"
+target="_blank"
+class="contact-card">
+
+<svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<rect x="2" y="8" width="20" height="10" rx="5"></rect>
+<path d="M7 11v4M5 13h4"></path>
+<circle cx="15.5" cy="12.5" r="1" fill="currentColor" stroke="none"></circle>
+<circle cx="18" cy="14.5" r="1" fill="currentColor" stroke="none"></circle>
+</svg>
+
+<h3>itch.io</h3>
+
+<p>
+basuritagames
+</p>
+
+</a>
+
+<a
+href="https://instagram.com/basuritagames"
+target="_blank"
+class="contact-card">
+
+<svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<rect x="3" y="3" width="18" height="18" rx="5"></rect>
+<circle cx="12" cy="12" r="4"></circle>
+<circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle>
+</svg>
+
+<h3>Instagram</h3>
+
+<p>
+@basuritagames
+</p>
+
+</a>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<img
+src="images/logo.png"
+alt="Basurita Games">
+
+<p>
 
 © 2026 Basurita Games
 
 </p>
-    </footer>
-  </div>
+
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
